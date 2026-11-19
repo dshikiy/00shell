@@ -1,0 +1,12 @@
+[package]
+name = "zero-shell"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.63"
+description = "0-shell: a minimalist Unix shell with built-in core commands, written in Rust"
+
+[[bin]]
+name = "0-shell"
+path = "src/main.rs"
+
+[dependencies]
